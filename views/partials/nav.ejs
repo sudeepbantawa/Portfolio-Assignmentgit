@@ -1,0 +1,27 @@
+<!-- nav.ejs -->
+<div class="navbar">
+  <img class="logo" src="/assets/logo.svg" />
+  <ul class="navs">
+    <a href="/">
+      <li class="nav <%= selected == 'home'? 'selected': '';%>">Home</li>
+    </a>
+    <a href="/aboutme">
+      <li class="nav <%= selected == 'aboutme'? 'selected': '';%>">About Me</li>
+    </a>
+    <a href="/services">
+      <li class="nav <%= selected == 'services'? 'selected': '';%>">
+        Services
+      </li>
+    </a>
+    <a href="/projects">
+      <li class="nav <%= selected == 'projects'? 'selected': '';%>">
+        Projects
+      </li>
+    </a>
+    <a href="/contactme">
+      <li class="nav <%= selected == 'contactme'? 'selected': '';%>">
+        Contact Me
+      </li>
+    </a>
+  </ul>
+</div>

@@ -1,0 +1,52 @@
+<!-- index.ejs -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/home.css" />
+    <script src="/js/main.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <%- include('partials/nav') %>
+    <div class="containner">
+      <div class="box">
+        <div>
+          <h1>
+            Hi, <br />
+            I am <b class="name"> Sudeep Rai Bnatawa</b>
+          </h1>
+          <p>Student at Centinential</p>
+          <a href="/aboutme">
+            <button class="buttons border-gradient border-gradient-purple">
+              About me
+            </button>
+          </a>
+        </div>
+      </div>
+      <div class="box">
+        <img src="/assets/profileback.png" class="profileback" alt="" />
+        <div class="profileContainner">
+          <img src="/assets/profile.jpeg" class="profilePic" />
+        </div>
+      </div>
+    </div>
+    <div class="links">
+      <a href="/linkedIn">
+        <h3><i class="fa fa-linkedin-square"></i> Linked In</h3>
+      </a>
+      <a href="/linkedIn">
+        <h3><i class="fa fa-facebook-official"></i> Facebook</h3>
+      </a>
+      <a href="/linkedIn">
+        <h3><i class="fa fa-twitter"></i> Twiter</h3>
+      </a>
+    </div>
+  </body>
+</html>

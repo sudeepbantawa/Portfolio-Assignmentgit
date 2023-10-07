@@ -1,0 +1,47 @@
+<!-- index.ejs -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/project.css" />
+    <script src="/js/main.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <%- include('partials/nav') %>
+
+    <div class="containner">
+      <div class="box2">
+        <h1 class="heading">My Projects</h1>
+        <div class="projects">
+          <% for(project of projects){ %>
+          <article class="article-wrapper">
+            <div class="rounded-lg container-project">
+              <img src="<%=project.image%>" width="100%" height="100%" />
+            </div>
+            <div class="project-info">
+              <div class="flex-pr">
+                <div class="project-title text-nowrap"><%=project.name%></div>
+                <div class="project-hover">
+                  <i class="icon fa fa-arrow-right"></i>
+                </div>
+              </div>
+              <div class="types">
+                <% for(tag of project.tags){%>
+                <span class="project-type">• <%=tag%></span>
+                <% } %>
+              </div>
+            </div>
+          </article>
+          <% } %>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

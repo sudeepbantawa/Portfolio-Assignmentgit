@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Website Development",
+    "price": "$40",
+    "description": " I specialize in creating custom websites that are not only visually appealing but also functional and user-friendly. From simple landing pages to complex web applications, I have the expertise to bring your ideas to life."
+  },
+  {
+    "name": "Front-end Development",
+    "price": "$40",
+    "description": " I excel in crafting intuitive user interfaces (UI) using HTML, CSS, and JavaScript. Your website will be responsive and optimized for a seamless experience on all devices."
+  },
+  {
+    "name": "Back-end Development",
+    "price": "$40",
+    "description": " I can build the server-side components of your web application using technologies like Node.js, Express, and databases such as MongoDB. Your data will be stored securely, and your website will run efficiently."
+  },
+  {
+    "name": "E-commerce Solutions",
+    "price": "$40",
+    "description": " If you're looking to sell products or services online, I can set up a robust e-commerce platform for your business. From product listings to secure payment processing, I'll ensure a smooth online shopping experience for your customers."
+  },
+  {
+    "name": "Website Maintenance",
+    "price": "",
+    "description": "Keeping your website up-to-date is essential. I offer ongoing maintenance services, including regular backups, security updates, and content updates, to ensure your site remains secure and relevant."
+  }
+]

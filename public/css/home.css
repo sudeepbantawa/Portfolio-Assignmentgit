@@ -1,0 +1,40 @@
+.profileback {
+  max-width: 100%;
+  width: auto;
+  max-height: 100%;
+  margin-top: 20px;
+}
+.profilePic {
+  height: 300px;
+}
+.profileContainner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.499) 0px 0px 50px;
+  border: solid 10px rgb(255, 255, 255);
+}
+.name {
+  color: crimson;
+  font-size: 50px;
+}
+
+.links {
+  display: flex;
+  align-self: flex-start;
+  margin-left: 30px;
+  gap: 20px;
+}
+.border-gradient {
+  border: 10px solid;
+  border-image-slice: 1;
+  border-width: 5px;
+}
+.border-gradient-purple {
+  border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+}
